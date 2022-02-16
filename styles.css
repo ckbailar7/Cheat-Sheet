@@ -1,0 +1,86 @@
+* {
+  background-color: #a266c3;
+  display: flexbox;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  width: min-content;
+}
+
+.Elementstitle {
+  font-size: 25px;
+}
+
+table {
+  border: 3px solid rgb(196, 98, 236);
+  table-layout: auto;
+  width: 1275px;
+}
+
+table td {
+  border: 1px solid rgb(31, 73, 242);
+  background-color: rgb(255, 255, 255);
+}
+table img {
+  width: 310px;
+  height: 180px;
+}
+
+strong {
+  background-color: rgb(255, 255, 255);
+}
+
+/* formatting image for z-index */
+.z-index img {
+  width: 430px;
+  height: 210px;
+}
+
+/* formatting image for fixed property */
+.fixedpositioning img {
+  width: 430px;
+  height: 210px;
+}
+
+/* formatting image for display property */
+
+.displayProperty img {
+  width: 430px;
+  height: 210px;
+}
+
+/* formatting image for css position absolute  */
+
+.absolute img {
+  width: 430px;
+  height: 210px;
+}
+
+/* formatting image for css position relative  */
+
+.relative img {
+  width: 430px;
+  height: 210px;
+}
+
+/* formatting image for css position float */
+
+.float img {
+  width: 430px;
+  height: 210px;
+}
+
+/* formatting image for clear property */
+.clearProperty img {
+  width: 430px;
+  height: 560px;
+}
